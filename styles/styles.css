@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .padre {
@@ -12,7 +13,40 @@
   align-items: center;
 }
 .padre .hijo {
-  margin-top: 15vh;
   width: 80vw;
   height: 80vh;
+}
+
+.purple {
+  background-color: #7541c8;
+}
+
+.blue {
+  background-color: #48556a;
+}
+
+.white, .white * {
+  background-color: white;
+  color: black;
+}
+
+.dark-blue {
+  background-color: #19212e;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.margin-10px {
+  margin-top: -10px;
+}
+
+.smaller-font {
+  font-size: 1em;
+}
+
+.margin-20px-down {
+  margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */

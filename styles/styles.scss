@@ -1,7 +1,13 @@
+$Moderate-violet: hsl(263, 55%, 52%);
+$Very-dark-grayish-blue: hsl(217, 19%, 35%);
+$Very-dark-blackish-blue: hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
+    color:white;
 }
 
 .padre{
@@ -11,9 +17,34 @@
     justify-content: center;
     align-items: center;
     .hijo{
-        margin-top: 15vh;
+        
         width: 80vw;
         height: 80vh;
     }
-
+}
+.purple{
+    background-color: $Moderate-violet;
+}
+.blue{
+    background-color: $Very-dark-grayish-blue;
+}
+.white,.white *{
+    background-color: $White;
+    color:black;
+}
+.dark-blue{
+    background-color: $Very-dark-blackish-blue;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.margin-10px{
+    margin-top: -10px;
+}
+.smaller-font{
+    font-size: 1em;
+}
+.margin-20px-down{
+    margin-top: 20px;
 }
