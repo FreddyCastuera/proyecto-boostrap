@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.padre {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.padre .hijo {
+  margin-top: 15vh;
+  width: 80vw;
+  height: 80vh;
+}/*# sourceMappingURL=styles.css.map */
